@@ -5,6 +5,7 @@ import random
 import traceback
 import logging
 import os
+import client
 bot = commands.Bot (command_prefix = "!")
 client = discord.Client()
 bot.remove_command("help")
